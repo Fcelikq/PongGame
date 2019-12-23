@@ -1,0 +1,73 @@
+#arena{
+    width: 900px;
+    height: 500px;
+    background-color:#09112B;
+    position: relative;
+    margin-left: 200px;
+    margin-top: 50px;
+    box-shadow: 0px 0px 20px 5px rgba(0,0,0,0.41);
+}
+#stick1{
+    position: absolute;
+    width: 15px;
+    height: 100px;
+    top: 40%;
+    left: 5px;
+    border-radius: 10px;
+    background-color: blue; 
+   
+    box-shadow: 0px 0px 20px 5px rgba(0,0,0,0.41);
+}
+
+#stick2{
+    position: absolute;
+    width: 15px;
+    height: 100px;
+    right:5px;
+    top: 40%;
+    border-radius: 10px;
+    background-color: red;
+    
+    box-shadow: 0px 0px 20px 5px rgba(0,0,0,0.41);
+    
+}
+
+#line{
+    position: absolute;
+    height: 100%;
+    width: 2px;
+    left: 50%;
+    background-color: white;
+    transform: translate(-50%,0%);
+}
+#scoreTable1{
+    position: absolute;
+    left: 40%;
+    top: 40%;
+    transform: translate(-50%,0%);
+    color: white;
+    font-size: 80px;
+    opacity: 0.6;
+}
+#scoreTable2{
+    position: absolute;
+    left: 60%;
+    top: 40%;
+    color: white;
+    font-size: 80px;
+    transform: translate(-50%,0%);
+    opacity: 0.6;
+}
+
+#ball{
+    background-color: green;
+    width: 20px;
+    height: 20px;
+    border-radius: 50%;
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    z-index: 3;
+    transform: translate(-50%, -50%);
+    box-shadow: 0px 0px 20px 5px rgba(0,0,0,0.41);
+}
